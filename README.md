@@ -1,6 +1,10 @@
 # Loan Approval Demo — Data & AI Presales Assessment
 
-A Streamlit-based loan approval demonstration built with Python and fictional applicant data. The project showcases a loan assessment workflow, affordability analysis, simulated document verification, and human credit officer review.
+**A Streamlit-based loan assessment prototype built with Python and fictional applicant data.**
+
+🚀 **[Launch Live Demo](https://loan-approval-demo-kevinn.streamlit.app)** | 💻 **[View Source Code on GitHub](https://github.com/kevinn7305/loan-approval-demo)**
+
+The project demonstrates a loan assessment workflow covering affordability analysis, simulated document verification, rule-based assessment findings, and human credit officer review.
 
 ## Features
 
@@ -19,6 +23,12 @@ A Streamlit-based loan approval demonstration built with Python and fictional ap
 - Pandas
 - NumPy
 - Plotly
+
+## Live Application
+
+**Open the application:** https://loan-approval-demo-kevinn.streamlit.app
+
+The hosted application is deployed using Streamlit Community Cloud and uses fictional applicant data.
 
 ## Run Locally
 
@@ -49,26 +59,30 @@ Open the local URL displayed in the terminal.
 
 ## Data and Storage
 
-The hosted demonstration uses fictional applicant data generated in Python. In the hosted version, applicant data, document verification statuses, and officer decisions are managed through Streamlit session-based storage.
+The hosted demonstration uses fictional applicant data generated in Python. Applicant data, document verification statuses, and officer decisions are managed through Streamlit session-based storage.
 
 **Storage limitation:** Changes may reset when the session ends or a new session starts. The hosted version does not require MySQL credentials.
 
-The original local version uses MySQL for persistent storage. The hosted version uses a separate storage implementation to avoid requiring database credentials during deployment.
+The original local implementation uses MySQL for persistent storage. The hosted implementation uses a separate session-based storage module to simplify deployment.
 
 ## Architecture and AI Approach
 
-The project demonstrates a loan assessment workflow using Python-based rules, affordability calculations, simulated verification checks, assessment findings, and human review.
+The prototype demonstrates a structured loan assessment workflow using Python-based rules, affordability calculations, simulated verification checks, assessment findings, and human review.
 
-The supporting architecture page distinguishes the current implementation from the proposed future architecture involving a consolidated data layer and agentic AI capabilities.
+The supporting architecture and approach-story pages describe the current implementation and a proposed future architecture involving consolidated data infrastructure and agentic AI capabilities.
+
+The current hosted application does **not** use a live LLM agent. Its assessment findings are generated using Python-based rules, with simulated checks and human oversight.
 
 ## Important Limitations
 
 - All applicant records are fictional.
 - Document verification is simulated.
 - Assessment findings are generated using Python-based rules.
-- The hosted version is not connected to a live banking system, BigQuery, external verification APIs, or a real LLM agent.
+- The hosted version is not connected to a live banking system, BigQuery, or external verification APIs.
+- No real LLM agent is integrated into the hosted application.
 - The application does not independently make final lending decisions.
 - Human credit officer review remains essential.
+- Session-based changes are not guaranteed to persist across sessions.
 
 This project is an educational demonstration, not a production-ready lending system.
 
@@ -78,4 +92,4 @@ No real customer data, passwords, database credentials, or API keys should be co
 
 ## Project Purpose
 
-The project demonstrates an understanding of loan assessment workflows, financial affordability, data processing, application development, human oversight, and the potential future application of AI in financial services.
+This project demonstrates an understanding of loan assessment workflows, financial affordability, data processing, application development, human oversight, and potential future applications of AI in financial services.
