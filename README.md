@@ -4,6 +4,8 @@
 
 🚀 **[Launch Live Demo](https://loan-approval-demo-kevinn.streamlit.app)** | 💻 **[View Source Code on GitHub](https://github.com/kevinn7305/loan-approval-demo)**
 
+🎥 **[Watch the Demo Recording](https://drive.google.com/file/d/1hXgaEyeBjZQItkISLfbAv3OMOo7P0EP8/view?usp=sharing)**
+
 The project demonstrates a loan assessment workflow covering affordability analysis, simulated document verification, rule-based assessment findings, and human credit officer review.
 
 ## Features
@@ -26,9 +28,9 @@ The project demonstrates a loan assessment workflow covering affordability analy
 
 ## Live Application
 
-**Open the application:** https://loan-approval-demo-kevinn.streamlit.app
+**Live Demo:** https://loan-approval-demo-kevinn.streamlit.app
 
-The hosted application is deployed using Streamlit Community Cloud and uses fictional applicant data.
+The application is deployed using Streamlit Community Cloud and uses fictional applicant data.
 
 ## Run Locally
 
@@ -71,7 +73,7 @@ The prototype demonstrates a structured loan assessment workflow using Python-ba
 
 The supporting architecture and approach-story pages describe the current implementation and a proposed future architecture involving consolidated data infrastructure and agentic AI capabilities.
 
-The current hosted application does **not** use a live LLM agent. Its assessment findings are generated using Python-based rules, with simulated checks and human oversight.
+The current hosted application **does not use a live LLM agent**. Its assessment findings are generated using Python-based rules, with simulated checks and human oversight.
 
 ## Important Limitations
 
